@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.caixa-pprincipal{
+
+ display: flex;   
+}
+
+header{
+position: absolute;
+left: 250px;
+display: flex;
+align-items: center;
+gap: 50px;
+font-weight: 400;
+font-size: 15px;
+color: rgb(25, 26, 27);
+word-spacing: 10px;
+top: 20px;
+color: aliceblue;
+
+
+}
+
+
+button{
+
+    
+    font-weight: 300px;
+   color: aliceblue;
+    width: 154px;
+    height: 48px;
+    border-radius: 25px;
+    background: none;
+    border: 1px solid white;
+}   
+
+
+.botao1{
+    display: flex;
+    position: absolute;
+    left: 600px;
+    gap: 20px;
+}
+
+.botaoheader{
+
+    font-weight: 300px;
+   color: aliceblue;
+    width: 154px;
+    height: 48px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(199,79,217,0.8631827731092436) 60%, rgba(119,16,134,1) 100%);
+
+}
+
+.imagens{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.caixa{position: relative;
+    left: 200px;
+  
+   align-items: center;
+   margin-top: 100px;
+}
+
+p{
+    width: 60%;
+    font-size: 16px;
+    width: 450px;
+    height: 72px;
+    color: aliceblue;
+}
+
+
+h1{color: rgb(235, 228, 241);
+    font-size: 50px;
+    text-shadow:3px black;
+  
+    
+
+    
+    
+}
+
+.titulo2{color: rgb(132, 11, 238);
+    font-size: 50px;
+
+}
+
+
+.caixa-pprincipal{display: flex;}
+
+.logo-cabeça{
+    width: 490px;
+
+    height: 426px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+   
+    .logo1{
+
+        width: 80px;
+        height: 80px;
+
+    }
+    
+    .logo2{
+        
+        height: 20px;
+        width: 50px
+        
+        
+    }
+
+
+    body{
+
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,39,65,0.9668242296918768) 100%);
+
+    }
+
+
+    .butao-texto{font-weight: 300px;
+   color: aliceblue;
+    width: 214px;
+    height: 48px;
+    border-radius: 25px;
+   border: none;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(199,79,217,0.8631827731092436) 60%, rgba(119,16,134,1) 100%);
+}   
+
+
+    
+.butao-texto:hover{
+    border: none;
+    font-weight: 300px;
+        color: aliceblue;
+         width: 219px;
+         height: 50px;
+         border-radius: 25px;
+         border: 1px solid white;
+         background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(199,79,217,0.8631827731092436) 60%, rgba(119,16,134,1) 100%);
+        cursor: pointer;}
+        
+     
+
+button:hover{
+    font-weight: 300px;
+    color: aliceblue;
+     width: 156px;
+     height: 58px;
+     border-radius: 25px;
+     background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(199,79,217,0.8631827731092436) 60%, rgba(119,16,134,1) 100%);
+     border:none;
+ }   
+
+ a:hover{
+    font-weight: 900;
+   border: 1s;
+ font-size: 20px;
+ cursor: pointer;
+ color: rgb(252, 244, 249);
+ 
+}
+ 
+
+
+
+@media screen and (max-width:400px){
+
+
+
+
+    .caixa-pprincipal{
+        display: inline-block;
+        
+    }
+
+
+    header{
+        display: flexbox;
+        left: 5px;
+        gap: 4px;
+        max-width: 50%;
+        font-size: 10px;
+        top: 10px;
+        gap: 6px;
+    }
+
+    
+.imagens{
+
+    display: none;
+}
+    
+.caixa{position: static;
+   max-width: 60%;
+    left: 60px;
+    margin-top: 10px;
+    
+
+    
+}
+ h1{height: 50px;
+    width: 100%;
+    padding: 40px;
+    font-size: 25px;
+
+    
+  
+    
+ }
+
+ .titulo2{height: 50px;
+    width: 100%;
+    padding: 40px;
+    font-size: 25px;
+
+    
+    
+ }
+
+ p{
+    
+    width: auto;
+    text-align: center;
+    font-size: 10px;
+    line-height: 24px;
+ }
+    
+.butao-texto{
+    display: block;
+    margin-left: 60px;
+    width: 100px;
+    height: 30px;
+    font-size: 8px;
+    margin-top: 170px;
+
+}
+
+.logo-cabeça{
+position: absolute;
+margin-left: 30px;
+width: 160px;
+height: 160px;
+margin-top: -200px;
+z-index: -3;
+opacity: 50%;
+}
+
+body{
+    max-width: 400px;
+    max-height: 800px;
+}
+
+
+a:hover{
+    font-weight: 600;
+   border: 1s;
+ font-size: 11px;
+ cursor: pointer;
+ color: rgb(252, 244, 249);
+ 
+}
+
+
+.butao-texto:hover{
+    border: none;
+    font-weight: 200px;
+        color: aliceblue;
+        width: 100px;
+        height: 30px;
+         border-radius: 25px;
+         border: 1px solid white;
+         background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(199,79,217,0.8631827731092436) 60%, rgba(119,16,134,1) 100%);
+
+}
+}
